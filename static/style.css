@@ -1,0 +1,43 @@
+body{
+    margin:0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    line-height: 1;
+    background-color: lightgray;
+}
+
+p{
+    font-family: sans-serif, cursive, monospace;
+    font-size: 22px;
+    color: white;
+}
+
+/* th{
+    color: white;
+} */
+
+.monday-dropdown option[value="Verbal Ability-English"] {
+    background-color: red;
+    color: white;
+}
+
+.monday-dropdown option[value="Quant"] {
+    background-color: blue;
+    color: white;
+}
+
+.monday-dropdown option[value="DILR"] {
+    background-color: green;
+    color: white;
+}
+
+.monday-dropdown option[value="Legal Reasoning"] {
+    background-color: yellow;
+    color: black;
+}
+
+.monday-dropdown option[value="Current Affairs"] {
+    background-color: orange;
+    color: black;
+}
