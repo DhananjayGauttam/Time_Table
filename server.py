@@ -13,7 +13,7 @@ import collections
 database = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="mysql@1234",
+    password="mysql@123",
     database="timetable"
 )
 conn = database.cursor()
