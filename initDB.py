@@ -9,7 +9,7 @@ try:
     database = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="mysql@1234"
+        password="mysql@123"
     )
     
     # Prepare cursor object
