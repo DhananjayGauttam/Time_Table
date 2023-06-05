@@ -125,4 +125,4 @@ def DeletePostItems(batch):
 
 if __name__ == '__main__':
     # define flask run adress and port
-    app.run(debug=True)
+    app.run(host='0.0.0.0')
